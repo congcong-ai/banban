@@ -1,0 +1,20 @@
+{
+  "来源": "https://github.com/Averyy/esp-uac2-host",
+  "提交": "a072adb6a2410f9f93474637a483724c93d5fc6f",
+  "版本": "0.1.2",
+  "许可证": "MIT",
+  "原始文件SHA256": {
+    "CMakeLists.txt": "861ed0fc1d92b255d396391f367c52cb68712ec7a11ac99202944394395da8a2",
+    "LICENSE": "3a2bb4e55dba6f42d31ee45ba0a4d34d89ddecc6a9ee3942fb55730d4be896ca",
+    "idf_component.yml": "9733e950472392f0947ed6377e9dfa0f359f3ecb6d183d1ee2ee47570020de6c",
+    "Kconfig": "2b32a17b811624201d233ed654b3c58ebcb19a8d256b2d667ad5e4892763aac8",
+    "uac2_host.c": "85e8587f3a27dc5ccdd9beb27049d81efc1c16969071674ef425a9ceaccaff5c",
+    "uac2_desc.c": "f2ed16a76b936a308da5263845bf4dbc8bae3307c21cf9cf5ae660c60c3d159d",
+    "include/usb/uac2_host.h": "f687d3a394ca6d0566d09fdcd6cb09c8ae7e048e66a2a8f6b842bd1690cdca56",
+    "include/usb/uac2_desc.h": "f5177edb336594b66bf2bc4737e6a3d097b44e16efdb925829da9f361c6c56e5"
+  },
+  "本地调整": [
+    "组件manifest增加esp32s31目标；使用当前ESP-IDF与官方USB Host",
+    "仅全速播放路径；不启用录音；后续修改记录在PATCHES.md"
+  ]
+}

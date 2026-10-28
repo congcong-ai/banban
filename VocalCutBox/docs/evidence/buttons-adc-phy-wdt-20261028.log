@@ -1,0 +1,33 @@
+I (484246) usb_uac2: PCM峰值=653 USB完成包=480483 实际bytes=184505472 非零bytes=21748541 补零bytes=12288 跳过包=0
+I (486226) bt_in: 队列=18/32 溢出=0 欠载块=48 旧块丢弃=31
+I (489256) usb_uac2: 写入=48548 失败=7 传输错误=0 事件丢失=0 连接=1 render峰值=14119us heap=236648 栈余=3900
+I (489256) usb_uac2: PCM峰值=1103 USB完成包=485493 实际bytes=186429312 非零bytes=22514564 补零bytes=12288 跳过包=0
+I (491236) bt_in: 队列=14/32 溢出=0 欠载块=48 旧块丢弃=31
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0).
+
+Core  0 register dump:
+MEPC    : 0x2f00d7dc  RA      : 0x2f011576  SP      : 0x2f023300  GP      : 0x2f015588
+TP      : 0x2f023410  T0      : 0x2f808d2a  T1      : 0x00000000  T2      : 0x00000000
+S0/FP   : 0x2f014e04  S1      : 0x0000cdcd  A0      : 0x2f014e04  A1      : 0xb33fffff
+A2      : 0x0000cdcd  A3      : 0x00000001  A4      : 0x00000000  A5      : 0x0000abab
+A6      : 0x1d554137  A7      : 0x1d45ff5d  S2      : 0x00000000  S3      : 0xffffffff
+S4      : 0x00000000  S5      : 0x9e5175b5  S6      : 0x0000007f  S7      : 0x00000000
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000
+T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000
+MSTATUS : 0x00011881  MTVEC   : 0x2f000003  MCAUSE  : 0x00000018  MTVAL   : 0x00000000
+MHARTID : 0x00000000
+
+
+符号解析：使用发生故障时的build-bt/banban.elf，ELF SHA前缀c000ae9d8。
+CPU0 MEPC 0x2f00d7dc：rv_utils_compare_and_set / esp_cpu_compare_and_set
+CPU0 RA 0x2f011576：spinlock_acquire_impl / xPortEnterCriticalTimeout
+CPU0堆栈 0x2f00fa8c：temp_sensor_get_raw_value，sar_tsens_ctrl.c:98
+CPU0堆栈 0x2f010336：phy_get_tsens_value，phy_override.c:102
+CPU0堆栈 0x4000d2d2：phy_track_pll_timer_callback，phy_common.c:158
+CPU0等待对象0x2f014e04：rtc_spinlock（对应故障时map）。
+CPU1 MEPC 0x2f01156e：spinlock_acquire_impl / xPortEnterCriticalTimeout
+CPU1堆栈 0x2f00e6a6：regi2c_ctrl_write_reg_mask，regi2c_ctrl.c:54
+CPU1堆栈 0x400bcc4a：adc_ll_weight_accumulator_bypass / adc_oneshot_read，adc_oneshot.c:243
+CPU1堆栈 0x400baeb6：sample_keys，controls.c:34
+CPU1等待对象0x2f014e48：regi2c_ctrl.c中的mux（对应故障时map）。
+未保留无关完整RAM转储或蓝牙设备地址。

@@ -1,0 +1,16 @@
+# 伴伴 BanBan
+
+> 开源ESP32-S31本地蓝牙消原唱硬件：A2DP输入 → 本地中置声像削弱 → CX31993 USB DAC输出。自有代码MIT，第三方保留原许可。硬件原型，非AI分轨产品。
+
+## 权威资料
+
+- [项目概览与验收状态](https://github.com/congcong-ai/banban/blob/main/README.md)：硬件、快速开始、实体四键及已测边界。
+- [常见问题](https://github.com/congcong-ai/banban/blob/main/docs/FAQ.md)：直接回答离线运行、兼容性与消原唱限制。
+- [固件恢复](https://github.com/congcong-ai/banban/blob/main/VocalCutBox/docs/11_FIRMWARE_BACKUP_RESTORE.md)：归档仅维护者本机保存，新克隆无法直接恢复。
+- [构建与烧录](https://github.com/congcong-ai/banban/blob/main/VocalCutBox/docs/03_BUILD_FLASH_TEST.md)：固定SDK、目标与身份核验。
+- [真板记录](https://github.com/congcong-ai/banban/blob/main/VocalCutBox/docs/05_REAL_DEVICE_TEST_LOG.md)：硬件验证证据。
+- [第三方许可](https://github.com/congcong-ai/banban/blob/main/VocalCutBox/THIRD_PARTY_LICENSES.md)：MIT与Apache-2.0边界、蓝牙库分发限制。
+
+## 引用边界
+
+设备名为VocalCutBox，产品名为伴伴/BanBan。仅已测ESP32-S31-Korvo-1 V1.1与CX31993；不推定ESP32-S3或所有USB DAC兼容。不得将合成DSP指标称为真实歌曲消除率，不得声称AI分轨、零延迟、D100验收或60分钟稳定性通过。本索引帮助发现文档，不保证搜索或AI服务收录。

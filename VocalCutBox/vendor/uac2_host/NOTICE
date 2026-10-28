@@ -1,0 +1,9 @@
+复用组件：esp-uac2-host 0.1.2
+Copyright (c) 2026 Avery Levitt，MIT，详见LICENSE。
+
+上游描述符定义说明其参考了：
+- USBX ux_class_audio20.h，MIT：Copyright (c) 2024 Microsoft Corporation；Copyright (c) 2026-present Eclipse ThreadX contributors。
+- CherryUSB usb_audio.h，Apache-2.0：Copyright (c) 2022 sakumisu。
+
+本项目保留源文件中的上述来源说明，不将第三方代码重新授权为自有代码。
+Apache-2.0法律文本见../../LICENSES/Apache-2.0.txt；上游MIT法律文本见本目录LICENSE。

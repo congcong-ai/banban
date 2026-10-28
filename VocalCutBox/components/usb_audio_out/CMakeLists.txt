@@ -1,0 +1,6 @@
+if(CONFIG_BANBAN_USB_UAC2)
+  set(audio_source "usb_audio_out_uac2.c")
+else()
+  set(audio_source "usb_audio_out.c")
+endif()
+idf_component_register(SRCS "${audio_source}" "usb_descriptor.c" INCLUDE_DIRS "include" REQUIRES usb_host_uac uac2_host esp_timer)

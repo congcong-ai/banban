@@ -1,0 +1,6 @@
+首次：ENUM: Configuration descriptor larger than control transfer max length
+ENUM: CHECK_SHORT_CONFIG_DESC FAILED
+控制传输上限256→4096后完成枚举。
+第二次：uac-host: UAC version 0x0200 not supported
+触发Load access fault，addr2line定位uac_host_device_open，uac_host.c:2171（上游失败清理）。
+最终应用在调用open前检查并拒绝不支持的版本，实物日志见usb-uac2-enumeration.log。

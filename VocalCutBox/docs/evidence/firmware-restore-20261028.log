@@ -1,0 +1,15 @@
+Verifying 0x52e0 (21216) bytes at 0x00002000 in flash against 'bootloader/bootloader.bin'...
+Verification successful (digest matched).
+Verifying 0xc00 (3072) bytes at 0x00008000 in flash against 'partition_table/partition-table.bin'...
+Verification successful (digest matched).
+Verifying 0x114720 (1132320) bytes at 0x00010000 in flash against 'banban.bin'...
+Verification successful (digest matched).
+恢复成功：三个镜像均已核验Flash内容，设备已复位。
+I (315) app_init: ELF file SHA256:  8b6ef4015...
+I (2366) 按键: 四键已启动：PLAY原曲/消除，SET消除模式，VOL±强度（长按连续调节）
+I (2526) bt_in: VocalCutBox 已可发现；SSP Just Works，无屏幕/PIN核对
+I (3656) usb_uac2: 输出=48000Hz/32bit/2ch，每帧8bytes
+I (7566) usb_uac2: 写入=393 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=614us heap=242964 栈余=3900
+I (7566) usb_uac2: PCM峰值=0 USB完成包=3933 实际bytes=1510272 非零bytes=0 补零bytes=9216 跳过包=0
+I (12576) usb_uac2: 写入=894 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=614us heap=242964 栈余=3900
+I (12576) usb_uac2: PCM峰值=0 USB完成包=8943 实际bytes=3434112 非零bytes=0 补零bytes=9216 跳过包=0

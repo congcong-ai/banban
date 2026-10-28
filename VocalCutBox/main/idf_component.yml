@@ -1,0 +1,5 @@
+dependencies:
+  idf: ">=6.1.0"
+  espressif/usb_host_uac: "==1.5.0"
+  espressif/esp_codec_dev: "==1.6.2"
+  espressif/button: "==4.2.1"

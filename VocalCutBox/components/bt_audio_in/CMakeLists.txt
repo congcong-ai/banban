@@ -1,0 +1,5 @@
+if("$ENV{BANBAN_WITH_BT}" STREQUAL "1")
+  idf_component_register(SRCS "bt_audio_in.c" INCLUDE_DIRS "include" REQUIRES bt nvs_flash esp_timer)
+else()
+  idf_component_register(INCLUDE_DIRS "include")
+endif()

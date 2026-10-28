@@ -1,0 +1,13 @@
+/build*/
+/managed_components/
+/sdkconfig
+/sdkconfig.old
+/.local/
+*.wav
+.DS_Store
+
+__pycache__/
+*.pyc
+
+# 本地固件归档含二进制与开发板身份，独立于可清理的build目录。
+/artifacts/firmware/

@@ -1,0 +1,12 @@
+menu "伴伴"
+config BANBAN_BOARD_SPEAKER_TEST
+    bool "板载ES8389喇叭对照测试（停用USB/BT）"
+    default n
+config BANBAN_USB_UAC2
+    bool "使用可复用UAC2 Host组件（全速播放）"
+    default y
+config BANBAN_BT_AUDIO
+    bool "启用实验性 A2DP 输入（P1验收后使用）"
+    default n
+    depends on BT_A2DP_ENABLE
+endmenu

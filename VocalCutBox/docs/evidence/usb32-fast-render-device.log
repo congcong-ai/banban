@@ -1,0 +1,91 @@
+I (277) uac2-host: UAC2 Host driver installed, v0.1.2
+I (277) usb_uac2: USB Host/UAC2 已安装（全速），等待 USB-A 上的数据设备
+I (277) 控制: 命令：tone on | tone off | volume 0..50 | usb-format 48000 16/24/32
+I (677) usb_uac2: 协商速度=1（0低速、1全速、2高速）
+I (677) uac2-host: UAC2 TX interface found: addr=1 iface=1
+I (677) usb_uac2: USB 地址=1 VID=06cb PID=1595 bcdUSB=0201 类=239
+I (677) uac2-host: UAC2 RX interface found: addr=1 iface=2
+I (687) usb_uac2: 12 01 01 02 ef 02 01 40 cb 06 95 15 01 00 01 02
+I (697) usb_uac2: 00 01
+I (697) usb_uac2: 配置描述符 bytes=422 接口=4（含 UAC 版本、端点和能力原始信息）
+I (707) usb_uac2: 09 02 a6 01 04 01 04 a0 32 08 0b 00 03 01 00 20
+I (707) usb_uac2: 00 09 04 00 00 00 01 01 20 00 09 24 01 00 02 04
+I (717) usb_uac2: 73 00 00 08 24 0a 09 03 07 00 00 11 24 02 01 01
+I (717) usb_uac2: 01 00 09 02 03 00 00 00 00 00 00 00 12 24 06 02
+I (727) usb_uac2: 01 03 00 00 00 0c 00 00 00 0c 00 00 00 04 0c 24
+I (737) usb_uac2: 03 03 01 03 04 02 09 00 00 00 08 24 0a 0a 03 07
+I (737) usb_uac2: 00 00 0c 24 03 06 01 01 00 05 0a 00 00 00 0e 24
+I (747) usb_uac2: 06 05 04 03 00 00 00 0c 00 00 00 06 11 24 02 04
+I (747) usb_uac2: 01 02 03 0a 01 01 00 00 00 00 00 00 00 09 04 01
+I (757) usb_uac2: 00 00 01 02 20 00 09 04 01 01 01 01 02 20 00 10
+I (767) usb_uac2: 24 01 01 00 01 01 00 00 00 02 03 00 00 00 00 06
+I (767) usb_uac2: 24 02 01 02 10 07 05 01 0d 80 01 01 08 25 01 00
+I (777) usb_uac2: 00 02 02 00 09 04 01 02 01 01 02 20 00 10 24 01
+I (777) usb_uac2: 01 00 01 01 00 00 00 02 03 00 00 00 00 06 24 02
+I (787) usb_uac2: 01 03 18 07 05 01 0d 40 02 01 08 25 01 00 00 02
+I (787) usb_uac2: 02 00 09 04 01 03 01 01 02 20 00 10 24 01 01 00
+I (797) usb_uac2: 01 01 00 00 00 02 03 00 00 00 00 06 24 02 01 04
+I (807) usb_uac2: 20 07 05 01 0d 00 03 01 08 25 01 00 00 02 02 00
+I (807) usb_uac2: 09 04 02 00 00 01 02 20 00 09 04 02 01 01 01 02
+I (817) usb_uac2: 20 00 10 24 01 06 00 01 01 00 00 00 01 01 00 00
+I (817) usb_uac2: 00 00 06 24 02 01 02 10 07 05 81 0d c0 00 01 08
+I (827) usb_uac2: 25 01 00 00 02 02 00 09 04 02 02 01 01 02 20 00
+I (837) usb_uac2: 10 24 01 06 05 01 01 00 00 00 01 01 00 00 00 00
+I (837) usb_uac2: 06 24 02 01 03 18 07 05 81 0d 20 01 01 08 25 01
+I (847) usb_uac2: 00 00 02 02 00 08 0b 03 01 03 00 00 00 09 04 03
+I (847) usb_uac2: 00 01 03 00 00 00 09 21 11 01 00 01 22 3f 00 07
+I (857) usb_uac2: 05 83 03 40 00 08
+I (857) usb_uac2: 音频类版本 bcdADC=0x0200
+I (877) uac2-host: UAC2 device opened: addr=1 VID=0x06CB PID=0x1595 "VENTURE-DAS-32"
+I (877) uac2-host: Opened TX interface: addr=1 iface=1 (device refs=1)
+I (877) uac2-host: Interface addr=1 iface=1 controls: FU=2 mute=yes volume=yes
+I (887) usb_uac2: UAC2 VID=06cb PID=1595 时钟源数=2 备选数=5
+I (887) usb_uac2: 真实采样率范围=8000..8000 step=0
+I (897) usb_uac2: 真实采样率范围=16000..16000 step=0
+I (897) usb_uac2: 真实采样率范围=32000..32000 step=0
+I (907) usb_uac2: 真实采样率范围=44100..44100 step=0
+I (907) usb_uac2: 真实采样率范围=48000..48000 step=0
+I (917) usb_uac2: 真实采样率范围=96000..96000 step=0
+I (917) usb_uac2: 选择播放接口=1 alt=3 PCM=48000Hz/32bit/2ch endpoint=0x01
+I (927) uac2-host: Starting TX stream: iface 1 alt 3, 2ch 32-bit, ep 0x01 (MPS 768)
+I (937) uac2-host: Set sample rate: 48000 Hz
+I (937) uac2-host: TX stream started (suspended)
+I (947) usb_uac2: 设备音量-12dB=ESP_OK，取消静音=ESP_OK（始终另有软件低增益）
+I (957) uac2-host: Set sample rate: 48000 Hz
+I (957) uac2-host: TX stream resumed
+I (957) uac2-host: Current sample rate: 48000 Hz
+I (967) usb_uac2: 时钟读回=48000Hz (ESP_OK) valid=1 (ESP_OK)
+I (967) usb_uac2: 控制读回：mute=0 (ESP_OK) 左=-3072/256dB (ESP_OK) 右=-3072/256dB (ESP_OK)
+I (977) usb_uac2: 输出=48000Hz/32bit/2ch，每帧8bytes
+I (5277) usb_uac2: 写入=431 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (5277) usb_uac2: PCM峰值=0 USB完成包=4314 实际bytes=1656576 非零bytes=0 补零bytes=9216 跳过包=0
+I (10287) usb_uac2: 写入=932 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (10287) usb_uac2: PCM峰值=0 USB完成包=9324 实际bytes=3580416 非零bytes=0 补零bytes=9216 跳过包=0
+I (15297) usb_uac2: 写入=1433 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (15297) usb_uac2: PCM峰值=0 USB完成包=14334 实际bytes=5504256 非零bytes=0 补零bytes=9216 跳过包=0
+I (20307) usb_uac2: 写入=1934 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (20307) usb_uac2: PCM峰值=0 USB完成包=19344 实际bytes=7428096 非零bytes=0 补零bytes=9216 跳过包=0
+I (25317) usb_uac2: 写入=2435 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (25317) usb_uac2: PCM峰值=0 USB完成包=24354 实际bytes=9351936 非零bytes=0 补零bytes=9216 跳过包=0
+I (30327) usb_uac2: 写入=2936 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+（中间周期统计省略）
+I (221037) usb_uac2: 写入=22007 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (221037) usb_uac2: PCM峰值=0 USB完成包=220074 实际bytes=84508416 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (226057) usb_uac2: 写入=22509 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (226057) usb_uac2: PCM峰值=0 USB完成包=225093 实际bytes=86435712 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (231077) usb_uac2: 写入=23011 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (231077) usb_uac2: PCM峰值=0 USB完成包=230115 实际bytes=88364160 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (236097) usb_uac2: 写入=23513 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (236097) usb_uac2: PCM峰值=0 USB完成包=235134 实际bytes=90291456 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (241117) usb_uac2: 写入=24015 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (241117) usb_uac2: PCM峰值=0 USB完成包=240153 实际bytes=92218752 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (246137) usb_uac2: 写入=24517 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (246137) usb_uac2: PCM峰值=0 USB完成包=245175 实际bytes=94147200 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (251157) usb_uac2: 写入=25019 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (251157) usb_uac2: PCM峰值=0 USB完成包=250194 实际bytes=96074496 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (256177) usb_uac2: 写入=25521 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (256177) usb_uac2: PCM峰值=0 USB完成包=255213 实际bytes=98001792 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (261197) usb_uac2: 写入=26023 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (261197) usb_uac2: PCM峰值=0 USB完成包=260235 实际bytes=99930240 非零bytes=1304304 补零bytes=9216 跳过包=0
+I (266217) usb_uac2: 写入=26525 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=457us heap=417468 栈余=4508
+I (266217) usb_uac2: PCM峰值=0 USB完成包=265254 实际bytes=101857536 非零bytes=1304304 补零bytes=9216 跳过包=0

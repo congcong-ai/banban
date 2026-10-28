@@ -1,0 +1,91 @@
+I (433) bt_in: 控制器初始化完成，启用BR/EDR，heap=344620
+I (493) bt_in: BR/EDR控制器启用完成，初始化Bluedroid，heap=340112
+I (503) bt_in: Bluedroid初始化完成，heap=321400
+I (533) bt_in: Bluedroid启用完成，注册A2DP Sink，heap=321400
+I (543) bt_in: VocalCutBox 已可发现；SSP Just Works，无屏幕/PIN核对
+I (573) uac2-host: UAC2 Host driver installed, v0.1.2
+I (573) usb_uac2: USB Host/UAC2 已安装（全速），等待 USB-A 上的数据设备
+I (573) 控制: 命令：tone on | tone off | volume 0..50 | usb-format 48000 16/24/32
+I (973) usb_uac2: 协商速度=1（0低速、1全速、2高速）
+I (973) uac2-host: UAC2 TX interface found: addr=1 iface=1
+I (973) usb_uac2: USB 地址=1 VID=06cb PID=1595 bcdUSB=0201 类=239
+I (973) uac2-host: UAC2 RX interface found: addr=1 iface=2
+I (983) usb_uac2: 12 01 01 02 ef 02 01 40 cb 06 95 15 01 00 01 02
+I (993) usb_uac2: 00 01
+I (993) usb_uac2: 配置描述符 bytes=422 接口=4（含 UAC 版本、端点和能力原始信息）
+I (1003) usb_uac2: 09 02 a6 01 04 01 04 a0 32 08 0b 00 03 01 00 20
+I (1003) usb_uac2: 00 09 04 00 00 00 01 01 20 00 09 24 01 00 02 04
+I (1013) usb_uac2: 73 00 00 08 24 0a 09 03 07 00 00 11 24 02 01 01
+I (1013) usb_uac2: 01 00 09 02 03 00 00 00 00 00 00 00 12 24 06 02
+I (1023) usb_uac2: 01 03 00 00 00 0c 00 00 00 0c 00 00 00 04 0c 24
+I (1033) usb_uac2: 03 03 01 03 04 02 09 00 00 00 08 24 0a 0a 03 07
+I (1033) usb_uac2: 00 00 0c 24 03 06 01 01 00 05 0a 00 00 00 0e 24
+I (1043) usb_uac2: 06 05 04 03 00 00 00 0c 00 00 00 06 11 24 02 04
+I (1043) usb_uac2: 01 02 03 0a 01 01 00 00 00 00 00 00 00 09 04 01
+I (1053) usb_uac2: 00 00 01 02 20 00 09 04 01 01 01 01 02 20 00 10
+I (1063) usb_uac2: 24 01 01 00 01 01 00 00 00 02 03 00 00 00 00 06
+I (1063) usb_uac2: 24 02 01 02 10 07 05 01 0d 80 01 01 08 25 01 00
+I (1073) usb_uac2: 00 02 02 00 09 04 01 02 01 01 02 20 00 10 24 01
+I (1073) usb_uac2: 01 00 01 01 00 00 00 02 03 00 00 00 00 06 24 02
+I (1083) usb_uac2: 01 03 18 07 05 01 0d 40 02 01 08 25 01 00 00 02
+I (1093) usb_uac2: 02 00 09 04 01 03 01 01 02 20 00 10 24 01 01 00
+I (1093) usb_uac2: 01 01 00 00 00 02 03 00 00 00 00 06 24 02 01 04
+I (1103) usb_uac2: 20 07 05 01 0d 00 03 01 08 25 01 00 00 02 02 00
+I (1103) usb_uac2: 09 04 02 00 00 01 02 20 00 09 04 02 01 01 01 02
+I (1113) usb_uac2: 20 00 10 24 01 06 00 01 01 00 00 00 01 01 00 00
+I (1123) usb_uac2: 00 00 06 24 02 01 02 10 07 05 81 0d c0 00 01 08
+I (1123) usb_uac2: 25 01 00 00 02 02 00 09 04 02 02 01 01 02 20 00
+I (1133) usb_uac2: 10 24 01 06 05 01 01 00 00 00 01 01 00 00 00 00
+I (1133) usb_uac2: 06 24 02 01 03 18 07 05 81 0d 20 01 01 08 25 01
+I (1143) usb_uac2: 00 00 02 02 00 08 0b 03 01 03 00 00 00 09 04 03
+I (1143) usb_uac2: 00 01 03 00 00 00 09 21 11 01 00 01 22 3f 00 07
+I (1153) usb_uac2: 05 83 03 40 00 08
+I (1153) usb_uac2: 音频类版本 bcdADC=0x0200
+I (1173) uac2-host: UAC2 device opened: addr=1 VID=0x06CB PID=0x1595 "VENTURE-DAS-32"
+I (1173) uac2-host: Opened TX interface: addr=1 iface=1 (device refs=1)
+I (1173) uac2-host: Interface addr=1 iface=1 controls: FU=2 mute=yes volume=yes
+I (1183) usb_uac2: UAC2 VID=06cb PID=1595 时钟源数=2 备选数=5
+I (1193) usb_uac2: 真实采样率范围=8000..8000 step=0
+I (1193) usb_uac2: 真实采样率范围=16000..16000 step=0
+I (1203) usb_uac2: 真实采样率范围=32000..32000 step=0
+I (1203) usb_uac2: 真实采样率范围=44100..44100 step=0
+I (1213) usb_uac2: 真实采样率范围=48000..48000 step=0
+I (1213) usb_uac2: 真实采样率范围=96000..96000 step=0
+I (1223) usb_uac2: 选择播放接口=1 alt=3 PCM=48000Hz/32bit/2ch endpoint=0x01
+I (1223) uac2-host: Starting TX stream: iface 1 alt 3, 2ch 32-bit, ep 0x01 (MPS 768)
+I (1233) uac2-host: Set sample rate: 48000 Hz
+I (1243) uac2-host: TX stream started (suspended)
+I (1243) usb_uac2: 设备音量-12dB=ESP_OK，取消静音=ESP_OK（始终另有软件低增益）
+I (1253) uac2-host: Set sample rate: 48000 Hz
+I (1253) uac2-host: TX stream resumed
+I (1263) uac2-host: Current sample rate: 48000 Hz
+I (1263) usb_uac2: 时钟读回=48000Hz (ESP_OK) valid=1 (ESP_OK)
+I (1273) usb_uac2: 控制读回：mute=0 (ESP_OK) 左=-3072/256dB (ESP_OK) 右=-3072/256dB (ESP_OK)
+I (1283) usb_uac2: 输出=48000Hz/32bit/2ch，每帧8bytes
+I (5353) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (5573) usb_uac2: 写入=431 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (5573) usb_uac2: PCM峰值=0 USB完成包=4314 实际bytes=1656576 非零bytes=0 补零bytes=9216 跳过包=0
+I (10363) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (10583) usb_uac2: 写入=932 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (10583) usb_uac2: PCM峰值=0 USB完成包=9324 实际bytes=3580416 非零bytes=0 补零bytes=9216 跳过包=0
+（中间周期统计省略）
+I (181073) usb_uac2: 写入=17981 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (181073) usb_uac2: PCM峰值=0 USB完成包=179814 实际bytes=69048576 非零bytes=0 补零bytes=9216 跳过包=0
+I (185713) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (186093) usb_uac2: 写入=18483 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (186093) usb_uac2: PCM峰值=0 USB完成包=184833 实际bytes=70975872 非零bytes=0 补零bytes=9216 跳过包=0
+I (190723) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (191113) usb_uac2: 写入=18985 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (191113) usb_uac2: PCM峰值=0 USB完成包=189855 实际bytes=72904320 非零bytes=0 补零bytes=9216 跳过包=0
+I (195733) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (196133) usb_uac2: 写入=19487 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (196133) usb_uac2: PCM峰值=0 USB完成包=194874 实际bytes=74831616 非零bytes=0 补零bytes=9216 跳过包=0
+I (200743) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (201153) usb_uac2: 写入=19989 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (201153) usb_uac2: PCM峰值=0 USB完成包=199893 实际bytes=76758912 非零bytes=0 补零bytes=9216 跳过包=0
+I (205753) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (206173) usb_uac2: 写入=20491 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (206173) usb_uac2: PCM峰值=0 USB完成包=204915 实际bytes=78687360 非零bytes=0 补零bytes=9216 跳过包=0
+I (210763) bt_in: 队列=0/16 溢出=0 欠载块=0 旧块丢弃=0
+I (211193) usb_uac2: 写入=20993 失败=0 传输错误=0 事件丢失=0 连接=1 render峰值=620us heap=266612 栈余=4488
+I (211193) usb_uac2: PCM峰值=0 USB完成包=209934 实际bytes=80614656 非零bytes=0 补零bytes=9216 跳过包=0

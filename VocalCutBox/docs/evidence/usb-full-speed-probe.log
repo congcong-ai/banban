@@ -1,0 +1,5 @@
+I (676) usb_out: 协商速度=1（0低速、1全速、2高速）
+I (676) usb_out: USB 地址=1 VID=06cb PID=1595 bcdUSB=0201 类=239
+I (846) usb_out: 音频类版本 bcdADC=0x0200
+E (846) usb_out: 此设备不兼容当前UAC1驱动，保持静音等待；不会调用有缺陷的失败清理路径
+W (856) usb_out: 跳过不支持的USB音频接口 addr=1 iface=1
